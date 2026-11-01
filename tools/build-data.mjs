@@ -23,7 +23,7 @@ const PILLARS = {
   "Sin asignar": "Unassigned",
 };
 
-const ytId = (u) => u.match(/[?&]v=([\w-]{11})/)?.[1] || u.match(/youtu\.be\/([\w-]{11})/)?.[1];
+const ytId = (u) => u.match(/[?&]v=([\w-]{11})/)?.[1] || u.match(/youtu\.be\/([\w-]{11})/)?.[1] || u.match(/youtube\.com\/(?:live|embed|shorts)\/([\w-]{11})/)?.[1];
 
 async function ogImage(url, id) {
   const existing = fs.readdirSync(thumbDir).find((f) => f.startsWith(id + "."));

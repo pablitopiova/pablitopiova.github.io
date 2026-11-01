@@ -2488,10 +2488,10 @@ window.SITE = {
    "pillar": "AI on Azure",
    "role": "Host",
    "description": "Reel - Short explaining what ML.NET is.",
-   "thumbGenerated": true,
+   "thumbGenerated": false,
    "url": "https://youtube.com/shorts/M5o9VQ_kQh8",
    "source": "youtube",
-   "thumb": "assets/themes/speaker.jpg",
+   "thumb": "https://i.ytimg.com/vi/M5o9VQ_kQh8/hqdefault.jpg",
    "featured": false
   },
   {
@@ -2504,10 +2504,10 @@ window.SITE = {
    "pillar": "Power Platform & integration",
    "role": "Host",
    "description": "With my Pablito Piova avatar, learn how Copilot simplifies app creation, data analysis, automation creation, and bots on Microsoft Power Platform.",
-   "thumbGenerated": true,
+   "thumbGenerated": false,
    "url": "https://youtube.com/shorts/yoYlFj5NAQk",
    "source": "youtube",
-   "thumb": "assets/themes/lowcode.jpg",
+   "thumb": "https://i.ytimg.com/vi/yoYlFj5NAQk/hqdefault.jpg",
    "featured": false
   },
   {
@@ -3496,10 +3496,10 @@ window.SITE = {
    "pillar": "Microsoft Foundry & models",
    "role": "Contributor",
    "description": "Microsoft Reactor livestream co-presented with Bruno Capuano (Principal Cloud Advocate, Microsoft), part of the series From Model to Agent: The Agent Framework Harness, Live in C#. We build a C# agent with AsHarnessAgent, a custom tool, web search and to-do list planning, connect it to a Microsoft Foundry chat client and run it in a shared console. 10,201 views on the dotnet YouTube channel (357K subscribers).",
-   "thumbGenerated": true,
+   "thumbGenerated": false,
    "url": "https://www.youtube.com/live/iUs15X1v2w4",
    "source": "youtube",
-   "thumb": "assets/themes/speaker.jpg",
+   "thumb": "https://i.ytimg.com/vi/iUs15X1v2w4/hqdefault.jpg",
    "featured": false
   },
   {
@@ -3671,11 +3671,11 @@ window.SITE = {
    "area": ".NET",
    "pillar": "Microsoft Foundry & models",
    "role": "Contributor",
-   "description": "Episode 1 of the .NET + Foundry, Better Together series, streamed live on the official .NET YouTube channel with Bruno Capuano (Microsoft): decision models, a Microsoft Foundry overview, the Hello Decisions demo, an Aspire app and orchestration with Agent Framework. 6,664 views.",
-   "thumbGenerated": true,
+   "description": "Episode 1 of the .NET + Foundry, Better Together series, streamed live with Bruno Capuano (Microsoft) on the official .NET YouTube channel and also available on the Microsoft Reactor channel: decision models, a Microsoft Foundry overview, the Hello Decisions demo, an Aspire app and orchestration with Agent Framework. 6,664 views.",
+   "thumbGenerated": false,
    "url": "https://www.youtube.com/live/mHrs-JHdPaY",
    "source": "youtube",
-   "thumb": "assets/themes/speaker.jpg",
+   "thumb": "https://i.ytimg.com/vi/mHrs-JHdPaY/hqdefault.jpg",
    "featured": false
   }
  ]

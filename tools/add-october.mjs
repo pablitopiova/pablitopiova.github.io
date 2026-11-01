@@ -46,7 +46,7 @@ const rows = [
   { id: "oct-youtube-net-foundry-1", date: "2026-10-15", type: "video", portal: "Webinar/Livestream", area: ".NET", pillar: F, role: "Contributor",
     title: ".NET + Foundry, Better Together, Episode 1: livestream on the .NET YouTube channel",
     url: "https://www.youtube.com/live/mHrs-JHdPaY",
-    desc: "Episode 1 of the .NET + Foundry, Better Together series, streamed live on the official .NET YouTube channel with Bruno Capuano (Microsoft): decision models, a Microsoft Foundry overview, the Hello Decisions demo, an Aspire app and orchestration with Agent Framework. 6,664 views." },
+    desc: "Episode 1 of the .NET + Foundry, Better Together series, streamed live with Bruno Capuano (Microsoft) on the official .NET YouTube channel and also available on the Microsoft Reactor channel: decision models, a Microsoft Foundry overview, the Hello Decisions demo, an Aspire app and orchestration with Agent Framework. 6,664 views." },
   { id: "oct-nb-agent-memory", date: "2026-10-22", type: "community", portal: "User Group Owner", area: ".NET", pillar: C, role: "Organizer",
     title: ".NET Baires: Agent Memory for .NET, persistent memory for AI agents",
     url: "https://www.meetup.com/net-baires/events/317052271/",
