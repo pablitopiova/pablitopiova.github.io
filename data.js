@@ -3677,38 +3677,6 @@ window.SITE = {
    "source": "youtube",
    "thumb": "assets/themes/speaker.jpg",
    "featured": false
-  },
-  {
-   "id": "m-oct-reactor-net-foundry-2",
-   "type": "video",
-   "date": "2026-10-29",
-   "dateApprox": false,
-   "title": ".NET + Foundry, Better Together: Decision Models in Action, Episode 2 (Microsoft Reactor)",
-   "area": ".NET",
-   "pillar": "Microsoft Foundry & models",
-   "role": "Contributor",
-   "description": "Microsoft Reactor livestream, episode 2 of the .NET + Foundry, Better Together series with Bruno Capuano (Microsoft), where I joined as a guest.",
-   "thumbGenerated": false,
-   "url": "https://developer.microsoft.com/en-us/reactor/events/27631/",
-   "source": "other",
-   "thumb": "assets/thumbs/m-oct-reactor-net-foundry-2.png",
-   "featured": false
-  },
-  {
-   "id": "m-oct-youtube-net-foundry-2",
-   "type": "video",
-   "date": "2026-10-29",
-   "dateApprox": false,
-   "title": ".NET + Foundry, Better Together: Decision Models in Action, Episode 2 (.NET YouTube channel)",
-   "area": ".NET",
-   "pillar": "Microsoft Foundry & models",
-   "role": "Contributor",
-   "description": "Episode 2 of the .NET + Foundry, Better Together series, streamed live on the official .NET YouTube channel with Bruno Capuano (Microsoft). 4,801 views.",
-   "thumbGenerated": false,
-   "url": "https://www.youtube.com/watch?v=7B0OoXzHk0k",
-   "source": "youtube",
-   "thumb": "https://i.ytimg.com/vi/7B0OoXzHk0k/hqdefault.jpg",
-   "featured": false
   }
  ]
 };
