@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pablo Piovano · Microsoft MVP & Docker Captain</title>
+  <meta name="description" content="Pablo Piovano is Director of AI at OZ Digital, Microsoft MVP and Docker Captain. Talks, community and content on AI agents, Microsoft Foundry, .NET and containers.">
+  <meta property="og:title" content="Pablo Piovano · Microsoft MVP & Docker Captain">
+  <meta property="og:description" content="Talks, events, videos and articles on AI, Azure, Microsoft Foundry, .NET and containers.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-in">
+      <a class="brand" href="#top"><img class="logo" src="assets/brand/logo.png" alt="" height="32"><span>Pablo Piovano</span></a>
+      <div class="nav-links">
+        <a href="#about">What I do</a>
+        <a href="#bookSec">Book</a>
+        <a href="#communitiesSec">Communities</a>
+        <a href="#contributions">Contributions</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="wrap hero-in">
+      <div class="hero-text">
+        <p class="role">Director of AI at OZ Digital</p>
+        <h1 id="name"></h1>
+        <p class="headline">I take AI agents from demo to production, and teach developers how.</p>
+        <p id="bio" class="bio"></p>
+        <div class="cta">
+          <a class="btn-primary" href="#contributions">Explore my contributions</a>
+          <a class="btn-ghost" id="ctaLinkedIn" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-badges">
+        <a class="b-link" href="https://mvp.microsoft.com/en-US/mvp/profile/33e06bb6-ccb0-ec11-983f-000d3a1017e3" target="_blank" rel="noopener" aria-label="Pablo Piovano on Microsoft MVP"><img class="b-mvp" src="assets/brand/mvp.png" alt="Microsoft Most Valuable Professional"></a>
+        <a class="b-docker b-link" href="https://www.docker.com/contributors/pablo-piovano/" target="_blank" rel="noopener" aria-label="Pablo Piovano on Docker"><img src="assets/brand/docker.svg" alt="" width="72" height="72"><div><b>Docker</b><span>Captain</span></div><img class="captain" src="assets/brand/captain.png" alt="Docker Captain mascot"></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="about">
+      <h2>What I do</h2>
+      <div id="pillars" class="pillars"></div>
+    </section>
+
+    <section id="bookSec">
+      <h2>My book</h2>
+      <div class="book">
+        <a href="https://www.amazon.com/Ultimate-Microsoft-Certified-Associate-Certification-ebook/dp/B0GS55FGRD" target="_blank" rel="noopener"><img src="assets/brand/book.jpg" alt="Ultimate Microsoft Certified Azure AI Engineer Associate (AI-102) Certification Guide, cover" width="200"></a>
+        <div>
+          <span class="kind">Author</span>
+          <h3>Ultimate Microsoft Certified Azure AI Engineer Associate (AI-102) Certification Guide</h3>
+          <p>Crack the AI-102 certification by building generative AI, intelligent agents and enterprise Azure AI solutions. Covers every exam domain, with hands-on guidance for generative AI, agents and RAG on Azure.</p>
+          <div class="cta">
+            <a class="btn-primary" href="https://www.amazon.com/Ultimate-Microsoft-Certified-Associate-Certification-ebook/dp/B0GS55FGRD" target="_blank" rel="noopener">Get the book on Amazon</a>
+            <a class="btn-ghost" href="https://www.amazon.com/stores/Pablo-Piovano/author/B0GSN6QJPV" target="_blank" rel="noopener">Author page</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="communitiesSec">
+      <h2>Communities I organize</h2>
+      <div class="communities">
+        <a class="community" href="https://www.meetup.com/netbaires/" target="_blank" rel="noopener"><img src="assets/brand/netbaires.png" alt=".NET Baires" height="96"><div><b>.NET Baires</b><span>.NET community in Buenos Aires</span><em class="join">Join on Meetup →</em></div></a>
+        <a class="community" href="https://globalai.community/chapters/sarasota" target="_blank" rel="noopener"><img src="assets/brand/globalai-sarasota.png" alt="Global AI Sarasota" height="96"><div><b>Global AI Sarasota</b><span>Global AI Community chapter · Sarasota, US</span><em class="join">Register for the chapter →</em></div></a>
+      </div>
+    </section>
+
+    <section id="contributions">
+      <h2>Contributions</h2>
+      <div class="filters">
+        <div id="typeFilters" class="chips"></div>
+        <div class="filters-row">
+          <select id="yearFilter" aria-label="Year"></select>
+          <select id="pillarFilter" aria-label="Topic"></select>
+          <input id="search" type="search" placeholder="Search…" aria-label="Search">
+        </div>
+      </div>
+      <p id="count" class="meta"></p>
+      <ol id="timeline" class="grid"></ol>
+      <p id="empty" class="empty" hidden>Sin resultados.</p>
+    </section>
+  </main>
+
+  <footer class="foot" id="contact">
+    <div class="wrap foot-in">
+      <div>
+        <b>Pablo Piovano</b>
+        <p>Director of AI at OZ Digital · Microsoft MVP · Docker Captain</p>
+      </div>
+      <div id="footLinks" class="foot-links"></div>
+      <p class="legal">© <span id="year"></span> Pablo Piovano. Personal site; not an official Microsoft or Docker site. Microsoft, MVP and Docker are trademarks of their respective owners.</p>
+    </div>
+  </footer>
+
+  <dialog id="detail" aria-labelledby="dTitle">
+    <button class="close" data-close aria-label="Close">×</button>
+    <img id="dImg" alt="">
+    <p id="dNote" class="note" hidden>Illustrative image generated with AI.</p>
+    <h2 id="dTitle"></h2>
+    <p id="dMeta" class="meta"></p>
+    <p id="dDesc" class="dDesc"></p>
+    <div id="dTags"></div>
+    <a id="dLink" class="btn" target="_blank" rel="noopener">View original content ↗</a>
+  </dialog>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
