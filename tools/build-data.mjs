@@ -51,7 +51,24 @@ async function thumbFor(c) {
   if (!c.url) return "";
   switch (c.url_kind) {
     case "youtube": { const v = ytId(c.url); return v ? `https://i.ytimg.com/vi/${v}/hqdefault.jpg` : ""; }
-    case "github": { const m = c.url.match(/github\.com\/([^/]+\/[^/?#]+)/); return m ? `https://opengraph.githubassets.com/1/${m[1]}` : ""; }
+    case "github": {
+      const m = c.url.match(/github\.com\/([^/]+\/[^/?#]+)/);
+      if (!m) return "";
+      const file = `${c.id}-github.png`;
+      const local = `assets/thumbs/${file}`;
+      if (fs.existsSync(path.join(thumbDir, file))) return local;
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+          const res = await fetch(`https://opengraph.githubassets.com/1/${m[1]}`, { signal: AbortSignal.timeout(15000) });
+          if (!res.ok || !res.headers.get("content-type")?.startsWith("image/")) throw new Error(`Invalid image response: HTTP ${res.status}`);
+          fs.writeFileSync(path.join(thumbDir, file), Buffer.from(await res.arrayBuffer()));
+          return local;
+        } catch (error) {
+          console.warn(`GitHub thumbnail ${c.id}, attempt ${attempt}: ${error.message}`);
+        }
+      }
+      return "";
+    }
     case "linkedin_profile": return "";
     default: return ogImage(c.url.startsWith("http") ? c.url : "https://" + c.url, c.id);
   }

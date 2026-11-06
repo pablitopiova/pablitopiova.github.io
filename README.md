@@ -67,7 +67,8 @@ Do not commit CSV files, tokens or personal contact details. The site only publi
 - Dates are publication dates, not upload dates.
 - Page order: hero, What I do, My book, Communities I organize, Contributions.
 - The MVP and Docker logos link to the official profiles.
-- Thumbnails load from their original source (YouTube, LinkedIn, GitHub) and are not copied into the repo.
+- GitHub repository thumbnails are downloaded into `assets/thumbs/` during data generation and published with the site. Cached images are reused on later builds.
+- Other thumbnails may be hosted remotely or cached locally. If an image fails to load, the cards and detail dialog display a local fallback and log a warning in the browser console.
 
 ## Pending
 

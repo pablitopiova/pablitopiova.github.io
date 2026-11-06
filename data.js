@@ -187,7 +187,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/docker-model-runner-lab",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/docker-model-runner-lab",
+   "thumb": "assets/thumbs/p-5a3c0210-github.png",
    "featured": false
   },
   {
@@ -219,7 +219,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/mcp-servers-microsoft-ecosystem",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/mcp-servers-microsoft-ecosystem",
+   "thumb": "assets/thumbs/p-894fc049-github.png",
    "featured": false
   },
   {
@@ -251,7 +251,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/claude-foundry-demo",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/claude-foundry-demo",
+   "thumb": "assets/thumbs/p-9e838790-github.png",
    "featured": false
   },
   {
@@ -267,7 +267,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/VMAzureApp",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/VMAzureApp",
+   "thumb": "assets/thumbs/p-5734719e-github.png",
    "featured": false
   },
   {
@@ -315,7 +315,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/mai-foundry-demos",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/mai-foundry-demos",
+   "thumb": "assets/thumbs/p-431ef423-github.png",
    "featured": false
   },
   {
@@ -2267,7 +2267,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/microsoft/generative-ai-for-beginners/pull/288",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/microsoft/generative-ai-for-beginners",
+   "thumb": "assets/thumbs/p-2bf0e78b-github.png",
    "featured": false
   },
   {
@@ -2555,7 +2555,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/AIVision-ImageRetrieval",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/AIVision-ImageRetrieval",
+   "thumb": "assets/thumbs/p-39d28e12-github.png",
    "featured": false
   },
   {
@@ -2747,7 +2747,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/Azure-ComputerVision-ImageAnalysis",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/Azure-ComputerVision-ImageAnalysis",
+   "thumb": "assets/thumbs/p-bf2a1cd4-github.png",
    "featured": false
   },
   {
@@ -2779,7 +2779,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/Azure-ComputerVision-BackgroundRemoval",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/Azure-ComputerVision-BackgroundRemoval",
+   "thumb": "assets/thumbs/p-f4194004-github.png",
    "featured": false
   },
   {
@@ -2923,7 +2923,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/Azure-ComputerVision-ImageRetrieval",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/Azure-ComputerVision-ImageRetrieval",
+   "thumb": "assets/thumbs/p-56006843-github.png",
    "featured": false
   },
   {
@@ -3419,7 +3419,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/microsoft-foundry-throttling-samples",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/microsoft-foundry-throttling-samples",
+   "thumb": "assets/thumbs/m-c105-foundry-github.png",
    "featured": false
   },
   {
@@ -3435,7 +3435,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/microsoft-foundry-throttling-samples/tree/main/dotnet/FoundryLab",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/microsoft-foundry-throttling-samples",
+   "thumb": "assets/thumbs/m-c105-net-github.png",
    "featured": false
   },
   {
@@ -3451,7 +3451,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/AzureCreditsApp",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/AzureCreditsApp",
+   "thumb": "assets/thumbs/m-c109-github.png",
    "featured": false
   },
   {
@@ -3611,7 +3611,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/three-memories-one-question",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/three-memories-one-question",
+   "thumb": "assets/thumbs/m-oct-three-memories-github.png",
    "featured": false
   },
   {
@@ -3627,7 +3627,7 @@ window.SITE = {
    "thumbGenerated": false,
    "url": "https://github.com/ppiova/foundry-field-notes-labs",
    "source": "github",
-   "thumb": "https://opengraph.githubassets.com/1/ppiova/foundry-field-notes-labs",
+   "thumb": "assets/thumbs/m-oct-foundry-field-notes-github.png",
    "featured": false
   },
   {

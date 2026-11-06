@@ -43,7 +43,10 @@ $("search").oninput = (e) => { state.q = e.target.value.toLowerCase(); render();
 function openDetail(i) {
   const d = $("detail");
   $("dImg").hidden = !i.thumb;
-  if (i.thumb) $("dImg").src = i.thumb;
+  if (i.thumb) {
+    $("dImg").onerror = function () { imageFallback(this, i); };
+    $("dImg").src = i.thumb;
+  }
   $("dNote").hidden = !i.thumbGenerated;
   $("dTitle").textContent = i.title;
   $("dMeta").textContent = [TYPES[i.type], i.role, SOURCES[i.source], fmt(i)].filter(Boolean).join(" · ");
@@ -56,10 +59,16 @@ function openDetail(i) {
 }
 $("detail").addEventListener("click", (e) => { if (e.target === e.currentTarget || e.target.closest("[data-close]")) e.currentTarget.close(); });
 
+function imageFallback(img, i) {
+  console.warn(`Thumbnail unavailable for ${i.id}: ${i.thumb}`);
+  img.onerror = null;
+  img.src = "assets/themes/build.jpg";
+}
+
 function card(i, cls = "item", tag = "li") {
   const title = el("h3", { textContent: i.title });
   const meta = [i.role, SOURCES[i.source], fmt(i)].filter(Boolean).join(" · ");
-  const img = i.thumb && el("img", { src: i.thumb, alt: "", loading: "lazy", onerror() { this.remove(); } });
+  const img = i.thumb && el("img", { src: i.thumb, alt: "", loading: "lazy", onerror() { imageFallback(this, i); } });
   const thumb = img && el("div", { className: "thumb" }, img);
   const body = el("div", { className: "body" }, el("span", { className: "kind", textContent: TYPES[i.type] || "" }), title, el("div", { className: "meta", textContent: meta }),
     i.description && el("p", { className: "desc", textContent: i.description }),
