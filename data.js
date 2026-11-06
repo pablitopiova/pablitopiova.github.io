@@ -3677,6 +3677,22 @@ window.SITE = {
    "source": "youtube",
    "thumb": "https://i.ytimg.com/vi/mHrs-JHdPaY/hqdefault.jpg",
    "featured": false
+  },
+  {
+   "id": "m-nov-agent-memory-article",
+   "type": "article",
+   "date": "2026-11-03",
+   "dateApprox": false,
+   "title": "Your agent doesn't forget with an error. It forgets with a tidy answer.",
+   "area": ".NET",
+   "pillar": ".NET & developer tools",
+   "role": "Author",
+   "description": "A reproducible experiment comparing file, vector and graph memory for AI agents using AgentMemory for .NET, Neo4j and Docker. All three stored relevant facts but failed to connect them when planning a go-live. The article explores silent retrieval failures, inspecting stored facts and testing what actually reaches the prompt. Runs locally with one Docker Compose command and no API keys.",
+   "thumbGenerated": false,
+   "url": "https://www.linkedin.com/pulse/your-agent-doesnt-forget-error-forgets-tidy-answer-pablo-piovano-ihwwe",
+   "source": "linkedin_article",
+   "thumb": "assets/thumbs/m-nov-agent-memory-article.png",
+   "featured": false
   }
  ]
 };
