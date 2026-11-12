@@ -3693,6 +3693,38 @@ window.SITE = {
    "source": "linkedin_article",
    "thumb": "assets/thumbs/m-nov-agent-memory-article.png",
    "featured": false
+  },
+  {
+   "id": "m-nov-ignite-2026",
+   "type": "blog",
+   "date": "2026-11-11",
+   "dateApprox": false,
+   "title": "See you at Microsoft Ignite 2026!",
+   "area": "Microsoft Foundry",
+   "pillar": "Community & leadership",
+   "role": "Contributor",
+   "description": "I announced my participation at Microsoft Ignite 2026 in San Francisco: joining the Table Talk “Level Up Your AI Skills | Lessons from Microsoft MVPs” and proctoring four hands-on labs for “Build an AI-ready data foundation with Microsoft OneLake” across November 17–19.",
+   "thumbGenerated": false,
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7526315886752866305/",
+   "source": "linkedin_post",
+   "thumb": "assets/thumbs/m-nov-ignite-2026.jpg",
+   "featured": false
+  },
+  {
+   "id": "m-nov-global-ai-kickoff",
+   "type": "blog",
+   "date": "2026-11-07",
+   "dateApprox": false,
+   "title": "Global AI Sarasota: community is how I've always found my people",
+   "area": "Community",
+   "pillar": "Community & leadership",
+   "role": "Organizer",
+   "description": "I shared the launch of Global AI Sarasota and invited the community to its free online kickoff on November 13, part of Global AI On Tour.",
+   "thumbGenerated": false,
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524685254813495296/",
+   "source": "linkedin_post",
+   "thumb": "assets/brand/globalai-sarasota.png",
+   "featured": false
   }
  ]
 };
