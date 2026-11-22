@@ -3725,6 +3725,22 @@ window.SITE = {
    "source": "linkedin_post",
    "thumb": "assets/brand/globalai-sarasota.png",
    "featured": false
+  },
+  {
+   "id": "m-nov-ignite-ai-business-article",
+   "type": "article",
+   "date": "2026-11-18",
+   "dateApprox": false,
+   "title": "Microsoft Is Going All In on AI: What Ignite 2026 Means for Every Business Leader",
+   "area": "Microsoft Foundry",
+   "pillar": "Microsoft Foundry & models",
+   "role": "Author",
+   "description": "A business-focused analysis of Microsoft Ignite 2026: Microsoft's AI stack, new MAI models, Foundry model routing and training, continuous improvement, Microsoft IQ, and practical questions for leadership teams planning their AI strategy.",
+   "thumbGenerated": false,
+   "url": "https://www.linkedin.com/pulse/microsoft-going-all-ai-what-ignite-2026-means-every-business-piovano-oyame",
+   "source": "linkedin_article",
+   "thumb": "assets/thumbs/m-nov-ignite-ai-business-article.png",
+   "featured": false
   }
  ]
 };
